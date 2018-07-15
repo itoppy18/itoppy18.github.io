@@ -23,3 +23,7 @@ div{
 	text-align:center;
 }
 
+li {
+  display: inline;
+  padding: 0 5px;
+}
