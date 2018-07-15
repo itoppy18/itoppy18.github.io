@@ -23,31 +23,3 @@ div{
 	text-align:center;
 }
 
-#nav4-1 {
-	width: 100%;
-	display: block;
-}
-#nav4-1 ul {
-	width: 100%;
-	font-size: 18px;
-	margin: 8px auto;
-	padding: 0;
-	list-style: none;
-	text-align: center;
-	display: -webkit-flex;
-	display: flex;
-}
-#nav4-1 li {
-	-webkit-flex-grow: 1;
-	flex-grow: 1;
-	border:1px solid #000;
-}
-#nav4-1 li a {
-	text-decoration: none;
-	padding: 8px;
-	color: #000;
-	display: block;
-}
-#nav4-1 li a:hover {
-	background: #ccc;
-}
