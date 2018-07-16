@@ -1,23 +1,26 @@
 p{
 	color:#0863a2;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h1{
-	color:#0863a2;
-	background-color:#03f3b8;
-	text-decoration: none;
+	color: #0863a2;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h2{
 	color:#0aa9eb;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h3{
 	color:#0aa9eb;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 h4{
 	color:#8dd97b;
+	font-family: 'Titillium Web', sans-serif;
 }
 
 #nav {
@@ -36,9 +39,17 @@ h4{
 
 #nav li a {
 	text-decoration: none;
+	font-size: 30px; 
 	color: #0863a2;
 	font-weight: bold;
 	display: block;
 	text-align: center;
 	height: 40rem;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+#top {
+	color:#0863a2;
+	font-family: 'Dosis', sans-serif;
+	text-decoration: none;
 }
