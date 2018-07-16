@@ -9,6 +9,11 @@ p{
 h1{
 	color:#0863a2;
 	background-color:#b1b2d1;
+	text-decoration: none;
+}
+
+h2{
+	color:#0863a2;
 }
 
 h3{
@@ -23,7 +28,24 @@ div{
 	text-align:center;
 }
 
-li {
-	display: inline;
-	padding: 0 5px;
+#nav {
+  list-style: none;
+  display: flex;
 }
+
+#nav li {
+  width: 100%;
+  text-align: center;
+  background-color: #b1b2d1;
+  height: 50px;
+  line-height: 50px;
+  margin-right: 2px;
+}
+
+#nav li a {
+  text-decoration: none;
+  color: #0863a2;
+  font-weight: bold;
+  padding: 20px;
+}
+
