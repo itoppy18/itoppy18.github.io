@@ -29,23 +29,25 @@ div{
 }
 
 #nav {
-  list-style: none;
-  display: flex;
+	list-style: none;
+	display: flex;
 }
 
 #nav li {
-  width: 100%;
-  text-align: center;
-  background-color: #b1b2d1;
-  height: 50px;
-  line-height: 50px;
-  margin-right: 2px;
+	width: 100%;
+	text-align: center;
+	background-color: #b1b2d1;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 2px;
 }
 
 #nav li a {
-  text-decoration: none;
-  color: #0863a2;
-  font-weight: bold;
-  padding: 20px;
+	text-decoration: none;
+	color: #0863a2;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	height: 40rem;
 }
 
