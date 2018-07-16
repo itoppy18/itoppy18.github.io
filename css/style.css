@@ -48,8 +48,9 @@ h4{
 	font-family: 'Titillium Web', sans-serif;
 }
 
-#top {
-	color:#0863a2;
+#top p{
+	color: #0863a2;
+	font-size: 100px;
 	font-family: 'Dosis', sans-serif;
 	text-decoration: none;
 }
