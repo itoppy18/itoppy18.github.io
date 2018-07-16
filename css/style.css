@@ -1,19 +1,15 @@
-div{
-	background-color:#b1b2d1;
-}
-
 p{
-	color:#0d74d6;
+	color:#0863a2;
 }
 
 h1{
 	color:#0863a2;
-	background-color:#b1b2d1;
+	background-color:#03f3b8;
 	text-decoration: none;
 }
 
 h2{
-	color:#0863a2;
+	color:#0aa9eb;
 }
 
 h3{
@@ -21,11 +17,7 @@ h3{
 }
 
 h4{
-	color:#0aa9eb;
-}
-
-div{
-	text-align:center;
+	color:#8dd97b;
 }
 
 #nav {
@@ -36,7 +28,7 @@ div{
 #nav li {
 	width: 100%;
 	text-align: center;
-	background-color: #b1b2d1;
+	background-color: #03f3b8;
 	height: 50px;
 	line-height: 50px;
 	margin-right: 2px;
@@ -50,4 +42,3 @@ div{
 	text-align: center;
 	height: 40rem;
 }
-
