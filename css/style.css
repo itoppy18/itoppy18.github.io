@@ -1,25 +1,15 @@
 p{
-	color:#0863a2;
+	color:#069;
 	font-family: 'Titillium Web', sans-serif;
 }
 
 h1{
-	color: #0863a2;
+	color: #06c;
 	font-family: 'Titillium Web', sans-serif;
 }
 
 h2{
-	color:#0aa9eb;
-	font-family: 'Titillium Web', sans-serif;
-}
-
-h3{
-	color:#0aa9eb;
-	font-family: 'Titillium Web', sans-serif;
-}
-
-h4{
-	color:#8dd97b;
+	color: #3cf;
 	font-family: 'Titillium Web', sans-serif;
 }
 
@@ -31,7 +21,7 @@ h4{
 #nav li {
 	width: 100%;
 	text-align: center;
-	background-color: #03f3b8;
+	background-color: #0fc;
 	height: 50px;
 	line-height: 50px;
 	margin-right: 2px;
