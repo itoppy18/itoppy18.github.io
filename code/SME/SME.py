@@ -3,7 +3,7 @@
 
 import time
 
-def pces(nomber, fo):
+def sme(nomber, fo):
     m = nomber
     cicadas_dict = {         #セミの出現周期と初期個体数の辞書
         2: m,
@@ -69,4 +69,4 @@ def pces(nomber, fo):
     for k, v in sorted(cicadas_dict.items(), key=lambda x: -x[1]):
         print(str(k) + ": " + str(v))
 
-pces(1000, 100)
+sme(1000, 100)
