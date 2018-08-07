@@ -1,10 +1,10 @@
 #! /usr/bin/python3
 # by itoppy18
-
+#覚書。１匹のメスは４００個の卵を産卵する。
 import time
 
-def sme(nomber, fo):
-    m = nomber
+def sme(number, fo):
+    m = number
     cicadas_dict = {         #セミの出現周期と初期個体数の辞書
         2: m,
         3: m,
@@ -52,9 +52,6 @@ def sme(nomber, fo):
             int(cicadas_dict[key])
             if cicadas_dict[key] <= 0:
                     cicadas_dict[key] = 0
-        if n >= 10000:
-            time.sleep(0.01)
-        
         str(years)
         print(years)
         print(cicadas_dict)
@@ -69,4 +66,4 @@ def sme(nomber, fo):
     for k, v in sorted(cicadas_dict.items(), key=lambda x: -x[1]):
         print(str(k) + ": " + str(v))
 
-sme(1000, 100)
+sme(10, 10)
