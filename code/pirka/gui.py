@@ -1,20 +1,21 @@
 #!/usr/bin/python3
 #coding:utf-8
 #kanto kor pirka nociw AI system ver.1.0.0.0 source code
+#gui.py:GUIを生成
 #made by @itoppy18
 
 import sys
 import data
 from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QPixmap
-from PyQt5.QtWidgets import QMainWindow, QWidget, QAction, qApp, QApplication, QLabel, QHBoxLayout, QFrame, QSplitter, QStyleFactory
+from PyQt5.QtWidgets import QMainWindow, QWidget, QTextEdit, QGridLayout, QAction, qApp, QApplication, QLabel, QHBoxLayout, QFrame, QSplitter, QStyleFactory
 
 class Pirka(QMainWindow):
 	def __init__(self):
 		super().__init__()
 		self.initUI()
 	def initUI(self):
-		newAction = QAction("新規作成", self)
+		newAction = QAction("新規作成", self)	#アクションを作る
 		newAction.setShortcut("Ctrl+N")
 		#newAction.triggered.connect(pass)
 		saveAction = QAction("保存", self)
@@ -25,7 +26,7 @@ class Pirka(QMainWindow):
 		exitAction.triggered.connect(qApp.quit)
 		self.statusBar()
 		menubar = self.menuBar()
-		fileMenu = menubar.addMenu("ファイル")
+		fileMenu = menubar.addMenu("ファイル")	#メニューを作る
 		fileMenu.addAction(newAction)
 		fileMenu.addAction(exitAction)
 		configAction = QAction("設定",self)
@@ -59,6 +60,11 @@ class Pirka(QMainWindow):
 		helpMenu  = menubar.addMenu("ヘルプ")
 		helpMenu.addAction(helpAction)
 		helpMenu.addAction(refarenceAction)
+		grid = QGridLayout()
+		review = QLabel('Review')
+		reviewEdit = QTextEdit()
+		grid.addWidget(review, 3, 0)
+		grid.addWidget(reviewEdit, 3, 1, 5, 1)
 		log = QLabel(self)
 		log.move(0,0)
 		avatar = QLabel(self)
@@ -83,9 +89,9 @@ class Pirka(QMainWindow):
 		hbox.addWidget(splitter2)
 		self.setLayout(hbox)
 		pixmap = QPixmap("itoppy.png")
+		"""
 		hbox.addWidget()
 		self.setLayout(hbox)
-		"""
 		self.setGeometry(100, 100, 800, 500)
 		self.setMaximumHeight(500)
 		self.setMaximumWidth(800)
