@@ -6,11 +6,12 @@
 class Log:
 	pass
 
-class Pirka:
-	version = "kanto kor pirka nociw AI system ver.1.0.0.0"
-	
 class Pattern:
-	pass
+	{[{"こんにちは"
 	
 class Definition:
 	pass
+	
+class Data:
+	version = "kanto kor pirka nociw AI system ver.1.0.0.0 \"polaris\""
+	
