@@ -1,18 +1,19 @@
 p{
-	color:#069;
+	color:#699;
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 20px;
+	font-size: 110%;
 }
 
 h1{
 	color: #06c;
 	font-family: 'Titillium Web', sans-serif;
-	font-size: 30px;
+	font-size: 175%;
 }
 
 h2{
 	color: #3cf;
 	font-family: 'Titillium Web', sans-serif;
+	font-size: 175%
 }
 
 #nav {
@@ -31,7 +32,7 @@ h2{
 
 #nav li a {
 	text-decoration: none;
-	font-size: 30px; 
+	font-size: 125%; 
 	color: #06c;
 	font-weight: bold;
 	display: block;
@@ -42,7 +43,7 @@ h2{
 
 #top p{
 	color: #06c;
-	font-size: 80px;
+	font-size: 300%;
 	font-family: 'Dosis', sans-serif;
 	text-decoration: none;
 }
