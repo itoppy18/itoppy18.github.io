@@ -15,6 +15,13 @@ class Pirka(QMainWindow):
 		super().__init__()
 		self.initUI()
 	def initUI(self):
+		hbox = QHBoxLayout(self)
+		pixmap = QPixmap("background.png")
+		lb1 = QLabel(self)
+		lb1.setPixmap(pixmap)
+		hbox.addWidget(lb1)
+		self.setLayout(hbox)
+		self.move(0, 0)
 		newAction = QAction("新規作成", self)	#アクションを作る
 		newAction.setShortcut("Ctrl+N")
 		#newAction.triggered.connect(pass)
