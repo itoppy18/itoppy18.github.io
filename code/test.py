@@ -16,7 +16,7 @@ class Example(QWidget):
 
         hbox = QHBoxLayout(self)
         # QPixmapオブジェクト作成
-        pixmap = QPixmap("background.png")
+        pixmap = QPixmap("pirka/background.png")
 
         # ラベルを作ってその中に画像を置く
         lbl = QLabel(self)
@@ -24,8 +24,7 @@ class Example(QWidget):
 
         hbox.addWidget(lbl)
         self.setLayout(hbox)
-
-        self.move(300, 200)
+        self.setGeometry(100, 100, 800, 500)
         self.setWindowTitle('Imoyokan')
         self.show()        
 

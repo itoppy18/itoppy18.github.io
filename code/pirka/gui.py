@@ -2,6 +2,7 @@
 #coding:utf-8
 #kanto kor pirka nociw AI system ver.1.0.0.0 "polaris" source code
 #gui.py:GUIを生成
+#もし今日が人生最後の日なら、やろうとしていることは本当に自分のやりたいことだろうか？-スティーブ・ジョブズ
 #made by @itoppy18
 
 import sys
@@ -13,15 +14,13 @@ from PyQt5.QtWidgets import QMainWindow, QWidget, QTextEdit, QGridLayout, QActio
 class Pirka(QMainWindow):
 	def __init__(self):
 		super().__init__()
+		self.title = data.Data.version
+		self.top = 100
+		self.left = 100
+		self.width = 800
+		self.height = 500
 		self.initUI()
 	def initUI(self):
-		hbox = QHBoxLayout(self)
-		pixmap = QPixmap("background.png")
-		lb1 = QLabel(self)
-		lb1.setPixmap(pixmap)
-		hbox.addWidget(lb1)
-		self.setLayout(hbox)
-		self.move(0, 0)
 		newAction = QAction("新規作成", self)	#アクションを作る
 		newAction.setShortcut("Ctrl+N")
 		#newAction.triggered.connect(pass)
@@ -67,13 +66,16 @@ class Pirka(QMainWindow):
 		helpMenu  = menubar.addMenu("ヘルプ")
 		helpMenu.addAction(helpAction)
 		helpMenu.addAction(refarenceAction)
-		self.setGeometry(100, 100, 800, 500)
-		self.setMaximumHeight(500)
-		self.setMaximumWidth(800)
-		self.setMinimumHeight(500)
-		self.setMinimumWidth(800)
-		self.setWindowTitle(data.Data.version)
-		self.setWindowIcon(QIcon("itoppy.png"))        
+		self.setGeometry(self.left, self.top, self.width, self.height)
+		self.setMaximumHeight(self.height)
+		self.setMaximumWidth(self.width)
+		self.setMinimumHeight(self.height)
+		self.setMinimumWidth(self.width)
+		self.setWindowTitle(self.title)
+		self.setWindowIcon(QIcon("itoppy.png"))      
+		lbl = QLabel(self)
+		lbl.setPixmap(QPixmap("background.png"))
+		lbl.move(300, 300, 1000, 1000)
 		self.show()
 
 app = QApplication(sys.argv)
