@@ -26,9 +26,9 @@ def primes(n):
 			
 def dprimes(n):
 	for i in range(n):
-		if prime(i) and prime(i + 3):
+		if prime(i) and prime(i + 1000):
 			print(i)
-			print(i + 2)
+			print(i + 1000)
 			print("\n")	
 		
-dprimes(100000000)
+dprimes(100000)

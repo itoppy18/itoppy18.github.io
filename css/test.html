@@ -1,0 +1,25 @@
+<img src="../img/itoppy.png" width="800" id="div" data-class="swing">
+<img src="../img/itoppy.png" id="img" data-class="flash">
+
+<button type="button" id="click">ボタン</button>
+<div id="scroll">ここにきたら動きます</div>
+<a href="#"><img src="../img/itoppy.png" id="hover" data-class="shake"></a>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+<script src="../js/jquery.animateCssPlus.js"></script>
+<script>
+$(function() {
+  $('#div').animateCssPlus({
+			scroll:true
+		});
+  $('#img').animateCssPlus();
+  $('#click').animateCssPlus({
+			click:true,
+			class:'jello'
+		});
+  $('#scroll').animateCssPlus({
+			scroll:true,
+			class:'wobble'
+		});
+  $('#hover').animateCssPlus();
+});
+</script>
