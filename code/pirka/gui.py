@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 #coding:utf-8
-#kanto kor pirka nociw AI system ver.1.0.0.0 "polaris" source code
+#kanto kor pirka nociw AI system α0.0.0.0a source code
 #gui.py:GUIを生成
 #もし今日が人生最後の日なら、やろうとしていることは本当に自分のやりたいことだろうか？-スティーブ・ジョブズ
-#made by @itoppy18
+#created by @itoppy18
 
 import sys
 import data
@@ -11,14 +11,14 @@ from PyQt5.QtCore import Qt
 from PyQt5.QtGui import QIcon, QPixmap
 from PyQt5.QtWidgets import QMainWindow, QWidget, QTextEdit, QGridLayout, QAction, qApp, QApplication, QLabel, QHBoxLayout, QFrame, QSplitter, QStyleFactory
 
-class Pirka(QMainWindow):
+class Pirka(QMainWindow, QWidget):
 	def __init__(self):
 		super().__init__()
 		self.title = data.Data.version
 		self.top = 100
 		self.left = 100
-		self.width = 800
-		self.height = 500
+		self.width = 1000
+		self.height = 600
 		self.initUI()
 	def initUI(self):
 		newAction = QAction("新規作成", self)	#アクションを作る
@@ -73,9 +73,11 @@ class Pirka(QMainWindow):
 		self.setMinimumWidth(self.width)
 		self.setWindowTitle(self.title)
 		self.setWindowIcon(QIcon("itoppy.png"))      
+		hbox = QHBoxLayout(self)
+		pixmap = QPixmap("pirka.png")
 		lbl = QLabel(self)
-		lbl.setPixmap(QPixmap("background.png"))
-		lbl.move(300, 300, 1000, 1000)
+		lbl.setPixmap(pixmap)
+		lbl.move(1000, 100)
 		self.show()
 
 app = QApplication(sys.argv)

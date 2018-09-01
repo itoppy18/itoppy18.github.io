@@ -1,9 +1,9 @@
 #!/usr/bin/python3
 #coding:utf-8
-#kanto kor pirka nociw AI system ver.1.0.0.0 "polaris" source code
+#kanto kor pirka nociw AI system α0.0.0.0a source code
 #main.py:メイン処理を実行
 #あなたがこのソースを覗いているとき、ソースもまた、あなたを覗いているのである。
-#made by @itoppy18
+#created by @itoppy18
 
 #ぴりか内部のモジュール読み込み
 #import feelings	#感情を計算

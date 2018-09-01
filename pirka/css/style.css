@@ -1,0 +1,55 @@
+h1{
+	text-align : center;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color : #06c;
+}
+
+h2{
+	text-align : center;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color : #3cf;
+}
+
+h3{
+	text-align : center;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color : #06c;
+}
+
+p{
+	text-align : center;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	color : #699;
+}
+
+#nav {
+	list-style: none;
+	display: flex;
+}
+
+#nav li {
+	width: 100%;
+	text-align: center;
+	background-color: #0fc;
+	height: 50px;
+	line-height: 50px;
+	margin-right: 2px;
+}
+
+#nav li a {
+	text-decoration: none;
+	font-size: 175%; 
+	color: #06c;
+	font-weight: bold;
+	display: block;
+	text-align: center;
+	height: 50px;
+	font-family: 'Encode Sans Condensed', sans-serif;
+}
+
+#top p{
+	color: #06c;
+	font-size: 400%;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	text-decoration: none;
+}
