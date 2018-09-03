@@ -34,7 +34,7 @@ h2{
 
 #menu li :hover {
 	background : #3ff;
-	 border-radius: 6px; 
+	border-radius: 6px; 
 }
 
 #menu li a {
@@ -65,7 +65,7 @@ h2{
 	width : 90%;
 }
 
-.stories {
+.works {
 	margin : 10px 80px 80px 80px;
 	width : 90%;
 }
