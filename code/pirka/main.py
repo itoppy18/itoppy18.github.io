@@ -2,7 +2,7 @@
 #coding:utf-8
 #kanto kor pirka nociw AI system α0.0.0.0a source code
 #main.py:メイン処理を実行
-#あなたがこのソースを覗いているとき、ソースもまた、あなたを覗いているのである。
+#十分に発達した科学技術は、魔法と見分けがつかない。 -アーサー・C・クラーク
 #created by @itoppy18
 
 #ぴりか内部のモジュール読み込み

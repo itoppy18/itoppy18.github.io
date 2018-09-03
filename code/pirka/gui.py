@@ -14,7 +14,7 @@ from PyQt5.QtWidgets import QMainWindow, QWidget, QTextEdit, QGridLayout, QActio
 class Pirka(QMainWindow, QWidget):
 	def __init__(self):
 		super().__init__()
-		self.title = data.Data.version
+		self.title = data.Pirka.version
 		self.top = 100
 		self.left = 100
 		self.width = 1000
