@@ -24,12 +24,8 @@ p{
 	text-align: center;
 	background-color: #fff;
 	height: 50px;
-	line-height: 50px; 
+	line-height: 10%; 
 	transition: all 100ms 200ms ease;
-}
-
-#menu li :hover {
-	border-radius: 6px; 
 }
 
 #menu li a {
