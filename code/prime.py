@@ -14,7 +14,6 @@ def prime(n):
 		if x >= n:
 			return True
 			c = 1
-	z = n / x
 
 def primes(n):
 	prime_list = []
@@ -31,4 +30,4 @@ def dprimes(n):
 			print(i + 2)
 			print("\n")	
 		
-dprimes(100000)
+dprimes(1000)
