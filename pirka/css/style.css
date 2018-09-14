@@ -1,11 +1,15 @@
 body{
-	background-color : #fff;
+	background-color : #000;
 }
 
-h1{
-	font-size : 300%;
+.big {
+	text-align: center;
+	background-image: url("https://itoppy18.githubio/pirka/img/background.png");
+	background-position: center;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	font-size : 270%;
 	font-family: 'Arsenal', cursive;
-	color : #000;
 }
 
 p{
@@ -22,10 +26,10 @@ p{
 #menu li {
 	width: 100%;
 	text-align: center;
-	background-color: #fff;
+	background-color: #000;
 	height: 50px;
 	line-height: 10%; 
-	transition: all 100ms 200ms ease;
+	transition: all 20ms 50ms ease;
 }
 
 #menu li a {
@@ -45,23 +49,26 @@ p{
 }
 
 .top h1{
-	color: #000;
+	color: #fff;
 	text-align: center;
 	font-size: 350%;
-	font-family: 'Comfortaa', sans-serif;
 	text-decoration: none;
 }
 
 .top p {
-	color: #444;
+	color: #fff;
 	text-align: center;
-	font-size: 110%;
+	font-size: 350%;
 }
 
 .pirka {
-	color: #000;
 	text-align: center;
+}
+
+.pirka h1{
+	color: #444;
 	font-size: 250%;
+	font-family: 'Comfortaa', sans-serif;
 }
 
 .home {
