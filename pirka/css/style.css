@@ -3,11 +3,6 @@ body{
 }
 
 .big {
-	text-align: center;
-	background-image: url("https://itoppy18.github.io/pirka/img/background.png");
-	background-position: center;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
 	font-size : 270%;
 	font-family: 'Arsenal', cursive;
 }
