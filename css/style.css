@@ -50,7 +50,7 @@ h2{
 
 #top p{
 	color: #06c;
-	font-size: 550%;
+	font-size: 500%;
 	font-family: 'Dosis', sans-serif;
 	text-decoration: none;
 }
@@ -60,26 +60,27 @@ a {
 	color: #3cf;
 }
 
-.aboutme {
-	margin : 100px 100px 100px 100px;
+.plofile {
+	margin : 5% 5% 5% 12%;
+	width : 75%;
 }
 
 .code {
-	margin : 100px 100px 100px 100px;
+	margin : 5% 5% 5% 12%;
 	width : 75%;
 }
 
 .works {
-	margin : 100px 100px 100px 100px;
+	margin : 5% 5% 5% 12%;
 	width : 75%;
 }
 
 .links {
-	margin : 100px 100px 100px 100px;
+	margin : 5% 5% 5% 12%;
 	width : 75%;
 }
 
 .history {
-	margin : 100px 100px 100px 100px;
+	margin : 5% 5% 5% 12%;
 	width : 75%;
 }

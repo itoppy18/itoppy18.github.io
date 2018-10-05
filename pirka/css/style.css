@@ -1,5 +1,5 @@
 body{
-	background-color : #000;
+	background-color : #123;
 }
 
 .big {
@@ -8,10 +8,16 @@ body{
 	color : #fff;
 }
 
+.copyright {
+	font-size : 110%;
+	font-family : 'Arsenal', sans-serif;
+	text-align : center;
+}
+
 p{
 	font-size : 110%;
 	font-family: 'Arsenal', sans-serif;
-	color : #444;
+	color : #666;
 }
 
 #menu {
@@ -22,16 +28,16 @@ p{
 #menu li {
 	width: 100%;
 	text-align: center;
-	background-color: #000;
+	background-color: #123;
 	height: 50px;
 	line-height: 10%; 
-	transition: all 20ms 50ms ease;
+	transition: all 0ms 200ms ease;
 }
 
 #menu li a {
 	text-decoration: none;
 	font-size: 170%; 
-	color: #444;
+	color: #666;
 	display: block;
 	text-align: center;
 	height: 50px;
@@ -41,7 +47,7 @@ p{
 }
 
 #menu li a:hover {
-	color: #f80;
+	color: #06c;
 }
 
 .top h1{
@@ -62,27 +68,32 @@ p{
 }
 
 .pirka h1{
-	color: #444;
+	color: #06c;
 	font-size: 250%;
 	font-family: 'Comfortaa', sans-serif;
 }
 
 .home {
-	margin : 5% 5% 15% 15%;
+	margin : 5% 5% 8% 15%;
 	width: 70%;
 }
 
 .code {
-	margin : 5% 5% 15% 15%;
+	margin : 5% 5% 8% 15%;
 	width: 70%;
 }
 
 .news {
-	margin : 5% 5% 15% 15%;
+	margin : 5% 5% 8% 15%;
 	width: 70%;
 }
 
 .creator {
-	margin : 5% 5% 15% 15%;
+	margin : 5% 5% 8% 15%;
 	width: 70%;
+}
+
+a {
+	text-decoration: none;
+	color: #06c;
 }
