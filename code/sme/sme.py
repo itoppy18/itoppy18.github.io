@@ -38,8 +38,8 @@ def main(n, y):
 					#出現すればindexに追加する
 					index.append(key)
 		#その年出現する蝉の合計を求める
-		for i in range(len(index)):
-			mcAll += mcDict[index[i]]
+		for i in index:
+			mcAll += mcDict[i]
 		#蝉を減らす処理
 		for key in mcDict:
 			#もし出現すれば「割合減少法」により減らす
