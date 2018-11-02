@@ -5,10 +5,12 @@ body{
 .big {
 	font-size : 230%;
 	font-family: 'Arsenal', cursive;
+	font-weight : bold;
+	text-align : center;
 	color : #123;
 }
 
-.copyright {
+.copyright p{
 	font-size : 110%;
 	font-family : 'Arsenal', sans-serif;
 	text-align : center;
@@ -18,7 +20,7 @@ p{
 	font-size : 110%;
 	font-family: 'Arsenal', sans-serif;
 	color : #666;
-	text-align : center;
+	text-align : left;
 }
 
 span {
@@ -59,6 +61,7 @@ span {
 	color: #123;
 	text-align: center;
 	font-size: 350%;
+	font-weight : bold;
 	text-decoration: none;
 }
 
