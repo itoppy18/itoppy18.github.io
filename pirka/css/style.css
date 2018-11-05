@@ -7,11 +7,11 @@
 }
 
 .copyright p{
-	font-size : 110%;
+	font-size : 80%;
 	font-family : 'Arsenal', sans-serif;
 	text-align : center;
-	margin : 0% 0% 30% 33%;
-	width: 40%;
+	margin : 0% 0% 25% 25%;
+	width: 50%;
 }
 
 p{
@@ -73,7 +73,7 @@ span {
 }
 
 .main {
-	margin : 5% 5% 25% 25%;
+	margin : 0% 0% 25% 25%;
 	width: 50%;
 }
 
