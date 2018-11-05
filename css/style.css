@@ -1,3 +1,11 @@
+.big{
+	color : #3cf;
+	font-size : 150%;
+	font-family: 'Dosis', sans-serif;
+	text-decoration: none;
+	font-weight : 700;
+} 
+
 p{
 	color:#699;
 	font-family: 'Titillium Web', sans-serif;
@@ -39,7 +47,7 @@ h2{
 
 #menu li a {
 	text-decoration: none;
-	font-size: 140%; 
+	font-size: 120%; 
 	color: #06c;
 	font-weight: bold;
 	display: block;
