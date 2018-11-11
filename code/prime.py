@@ -50,4 +50,4 @@ def dprimes(n):
 			print(i + 2)
 			print("\n")	
 			
-print(dprimes(10000))
+print(primes(1000000))
