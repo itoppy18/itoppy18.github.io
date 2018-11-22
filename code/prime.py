@@ -50,4 +50,5 @@ def dprimes(n):
 			print(i + 2)
 			print("\n")	
 			
-print(primes(253))
+
+print(primes(1000000))
