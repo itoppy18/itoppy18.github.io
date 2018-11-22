@@ -12,6 +12,7 @@
 	font-size: 110%;
 	margin : 0;
 }
+
 p{
 	color:#699;
 	font-family: 'Titillium Web', sans-serif;
@@ -82,27 +83,7 @@ body {
 	margin : 0;
 }
 
-.plofile {
-	margin : 5% 5% 5% 12%;
-	width : 75%;
-}
-
-.code {
-	margin : 5% 5% 5% 12%;
-	width : 75%;
-}
-
-.works {
-	margin : 5% 5% 5% 12%;
-	width : 75%;
-}
-
-.links {
-	margin : 5% 5% 5% 12%;
-	width : 75%;
-}
-
-.history {
+.main {
 	margin : 5% 5% 5% 12%;
 	width : 75%;
 }
