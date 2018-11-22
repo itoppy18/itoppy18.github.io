@@ -19,7 +19,7 @@ h1{
 }
 
 h2{
-	color: #3cf;
+	color: #05a888;
 	font-family: 'Dosis', sans-serif;
 	font-size: 150%;
 	margin : 0;
@@ -28,32 +28,35 @@ h2{
 #menu {
 	list-style: none;
 	display: flex;
+	position: fixed;
+    top: 0;
+    left:0;
+    width: 100%;
 }
 
 #menu li {
 	width: 100%;
 	text-align: center;
-	background-color: #0fc;
-	height: 50px;
-	line-height: 50px;
+	background-color: #05a888;
+	height: 40px;
+	line-height: 40px;
 	margin-right: 2px;
 	border-radius: 6px; 
 	transition: all 500ms ease;
 }
 
 #menu li:hover {
-	background : #3ff;
+	background : #0da;
 	border-radius: 6px; 
 }
 
 #menu li a {
 	text-decoration: none;
-	font-size: 120%; 
-	color: #06c;
-	font-weight: bold;
+	font-size: 100%; 
+	color: #fff;
 	display: block;
 	text-align: center;
-	height: 50px;
+	height: 40px;
 	font-family: 'Titillium Web', sans-serif;
 }
 
