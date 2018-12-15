@@ -1,0 +1,18 @@
+p{
+	color:#699;
+	font-size: 110%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+.big{
+	color : #05a888;
+	font-size : 200%;
+	font-family: 'Josefin Sans', sans-serif;
+	text-decoration: none;
+} 
+
+.main {
+	margin : 5% 5% 5% 12%;
+	width : 75%;
+	text-align : center;
+}
