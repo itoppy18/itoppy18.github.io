@@ -1,0 +1,304 @@
+
+@import url('https://fonts.googleapis.com/css?family=Abel');
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
+@import url('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
+/*
+white #fafafa
+blue #29ad95
+gray #e6e6e6
+yellow #fffd80
+black #242424
+dark gray #777*/
+body{
+  font-family: 'Noto Sans Japanese';
+  background-color: #fafafa;
+  transform: rotate(0.05deg);
+  margin: 0 1px;
+}
+header{
+  margin: 40px 80px;
+}
+/*トップ画面*/
+#top{
+  /*width: 100%;*/
+  height: 480px;
+  background-color: #29ad95;
+  text-align: center;
+  top: 20%;
+}
+.topcntnts{
+  color:#fff;
+  font-size: 60px;
+  font-family: "Abel";
+  padding-top: 160px;
+}
+.topcntnts img{
+  border-radius: 80px;
+ -moz-border-image: border-radius: 80px;
+ -webkit-border-image: border-radius: 80px;
+ width: 160px;
+ border: solid #fff;
+}
+
+/*メニューバー*/
+.menu, .menu-list {
+  list-style: none;
+  padding-left: 0;
+}
+.menu-case {
+	float: left;
+	display: inline;
+	text-align: left;
+	margin-right: 20px;
+}
+.menu{
+	bottom: 30px;7
+  display: block;
+}
+.menu:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.menu-case:hover .menu-name {
+  color: #29ad95;
+}
+.menu-name{
+	font-size: 24px;
+	font-weight:600;
+  color: #242424;
+  font-family: "Abel";
+}
+.menu-button{
+  border: 2px solid #29ad95;
+  border-radius: 6px;
+  font-family: "Abel";
+  font-size: 24px;
+  font-weight: bolder;
+  color: #29ad95;
+  width: 80px;
+  padding: 4px 15px;
+  text-align: center;
+  transition: .3s;
+  cursor: pointer;
+  display: none;
+}
+#mnbtn{
+  display: none;
+}
+#mnbtn:checked + .menu-button{
+  background-color: #29ad95;
+  color: #fff;
+}
+
+
+/*見出し、本文*/
+h1{
+	font-size: 48px;
+  margin-bottom: 12px;
+  font-weight: 500;
+  font-family: "Abel";
+  color: #777;
+}
+h2{
+	font-size: 36px;
+  font-weight: 600;
+  margin-top: 64px;
+  margin-bottom: 0;
+  font-family: "Abel";
+  color: #29ad95;
+}
+h3{
+  font-size: 20px;
+  margin-bottom: 0;
+  font-family: "Abel";
+  color: #29ad95;
+}
+.nihongo{
+  font-size: 16px;
+  margin: 0;
+  color: #777;
+  font-weight: 300;
+}
+p{
+  margin-top: 12px;
+  font-weight: 300;
+}
+a {
+text-decoration: none;
+}
+small{
+
+}
+ul{
+  padding: 0;
+}
+li{
+  list-style: none;
+  font-weight: 300;
+  margin-bottom: 8px;
+}
+i{
+  color:#7dc24f;
+}
+time{
+  color: #606060;
+  margin-right: 12px;
+}
+.heading{
+  border-bottom: solid 3px #ffe93e;
+  padding: 6px 0;
+}
+
+/*作品*/
+.works{
+  margin: 0;
+  padding: 0;
+}
+.project{
+  transition: all .3s;
+  list-style: none;
+  background-color: #fff;
+  width: 280px;
+  height: auto;
+  flex-wrap:wrap;
+  border-radius: 8px;
+  box-shadow: 0 2px 3px 0 #bbb;
+  margin: 0 20px 20px 0;
+  float: left;
+  position: relative;
+}
+.project:hover{
+  margin-top:-8px;
+}
+.prjtitle{
+  color: #555;
+  font-size: 24px;
+  font-family: "Noto Sans Japanese";
+}
+.tag{
+  color: #777;
+  background: linear-gradient(transparent 70%, #fffd80 80%);
+  font-size: 16px;
+}
+.contents{
+  padding: 20px;
+}
+.dsc{
+  font-size: 16px;
+  font-weight: 400;
+  color: #242424;
+}
+.contents img{
+  object-fit: cover;
+   width:240px;
+   height:240px;
+   object-position: 0 0;
+}
+/*timeline https://codepen.io/P233/pen/lGewF*/
+#timeline {
+  list-style: none;
+  margin: 50px 0 30px 120px;
+  padding-left: 30px;
+  border-left: 8px solid #29ad95;
+}
+#timeline li {
+  margin: 40px 0;
+  position: relative;
+}
+.date {
+  margin-top: -10px;
+  top: 50%;
+  left: -158px;
+  font-size: 0.95em;
+  line-height: 20px;
+  position: absolute;
+}
+.circle {
+  margin-top: -10px;
+  top: 50%;
+  left: -44px;
+  width: 10px;
+  height: 10px;
+  background: #fafafa;
+  border: 5px solid #29ad95;
+  border-radius: 50%;
+  display: block;
+  position: absolute;
+}
+label {
+  z-index: 100;
+  cursor: pointer;
+  top: 20px;
+}
+/*メインコンテンツ*/
+#main{
+	margin: 0 80px 80px 80px;
+}
+/*連絡フォーム*/
+form{
+  font-family: 'Rounded Mplus 1c';
+}
+.sbmbtn{
+  border: none;
+  outline: none;
+  padding: 15px 25px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #555;
+  transition: all .2s;
+  width:240px;
+}
+.sbmbtn:hover{
+  background-color: #009d9d;
+}
+#msg{
+  width: 240px;
+  height: 128px;
+  margin-bottom: 15px;
+}
+.textbox{
+  margin-bottom: 15px;
+  width: 240px;
+}
+/*https://saruwakakun.com/html-css/reference/nav-drawer*/
+/*http://totora0155.hatenablog.jp/entry/css-only-menubar*/
+@media screen and (max-width: 860px) {
+  .menu{
+    display: none;
+    background-color: #fff;
+    padding: 12px;
+  }
+  .menu-button {
+    display: block;
+  }
+  #top{
+    height: 120px;
+    background-color: #29ad95;
+    text-align: center;
+    top: 20%;
+  }
+  .topcntnts img{
+    width:80px;
+    border-radius: 60px;
+  }
+  .topcntnts{
+    padding-top: 20px;
+  }
+  .topcntnts p{
+    display: none;
+  }
+  #main {
+    margin: 0 40px;
+  }
+  header {
+    margin: 20px 40px;
+  }
+  #mnbtn:checked ~ .menu{
+    display: block;
+  }
+  .menu-case{
+    float: none;
+    background-color: #fff;
+  }
+}
