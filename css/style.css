@@ -116,10 +116,6 @@ body {
 	width : 75%;
 }
 
-span {
-   display: inline-block;
-}
-
 header {
 	padding: 10px;
 	position: fixed;
