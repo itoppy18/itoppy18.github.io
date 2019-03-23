@@ -25,8 +25,24 @@
 		<!--Title-->
 		<title>Plofile itoppy's website</title>
 	</head>
+	<header>
+  		<div id="nav-drawer">
+			<input id="nav-input" type="checkbox" class="nav-unshown">
+			<label id="nav-open" for="nav-input"><span></span></label>
+			<label class="nav-unshown" id="nav-close" for="nav-input"></label>
+			<div id="nav-content">
+				<ul id="menu">
+					<li><a href="index.html">PLOFILE</a></li>
+					<li><a href="code.html">CODE</a></li>
+					<li><a href="works.html">WORKS</a></li>
+					<li><a href="blog.html">BLOG</a></li>
+					<li><a href="links.html">LINKS</a></li>
+				</ul>
+			</div>
+		</div>
+	</header>
 	<body>
-		<ul id="menu">
+		<ul id="pc-menu">
 			<li><a href="index.html">PLOFILE</a></li>
 			<li><a href="code.html">CODE</a></li>
 			<li><a href="works.html">WORKS</a></li>
@@ -34,42 +50,42 @@
 			<li><a href="links.html">LINKS</a></li>
 		</ul>
 		<ul id="top">
-			<p><img src="img/itoppy.jpg" width="80px" height="80px">itoppy's website</p>
+			<p>itoppy's website</p>
 		</ul>
-		<div class="plofile">
-			<h1>PLOFILE</h1>
-				<p>いとっぴーといいます。2005年生まれで、東京都に住んでいます。プロテスタントのクリスチャンで、メインPCがラズパイです。Pythonで会話AI<a href="https://pirka-ai.github.io">pirka</a>を開発しています。</p>
+		<div class="main">
+			<p class="title"><img src="img/itoppy.jpg" width="50px" height="50px">PLOFILE</p>
+				<p><span>いとっぴーといいます。</span><span>2005年生まれで、</span><span>東京都に住んでいます。</span><span>プロテスタントのクリスチャンです。</span><span>Pythonで会話AI「<a href="https://pirka-ai.github.io">pirka</a>」を</span><span>開発しています。</span></p>
 		<p><br><br></p>
-				<h2>Hobbies</h2>
+				<p class="sub-title">Hobbies</h2>
 					<p class="jp">趣味</p>
-					<hr width="100%" color="#05a888" align="left" size="3px" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+					<hr width="100%" color="#555" align="left" size="3px">
 						<p>ギター/料理/音源をつくること/小説を書くこと</p>
 		<p><br><br></p>
-				<h2>Use Languages</h2>
+				<p class="sub-title">Languages</h2>
 					<p class="jp">使っている言語</p>
-					<hr width="100%" color="#05a888" align="left" size="3px" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+					<hr width="100%" color="#555" align="left" size="3px">
 					<p>Python/MarkDown/HTML/CSS/Bash</p>
 		<p><br><br></p>
-				<h2>Use Software</h2>
+				<p class="sub-title">Software</h2>
 					<p class="jp">使っているソフト</p>
-					<hr width="100%" color="#05a888" align="left" size="3px" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+					<hr width="100%" color="#555" align="left" size="3px">
 					<p>Gedit/GIMP/Sonic Pi</p>
 		<p><br><br><p>
-				<h2>Use Hardware</h2>	
+				<p class="sub-title">Hardware</h2>	
 					<p class="jp">環境</p>
-					<hr width="100%" color="#05a888" align="left" size="3px" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+					<hr width="100%" color="#555" align="left" size="3px">
 					<p>Raspberry Pi 3 Model B+</p>
 		<p><br><br></p>
-				<h2>Tests & Licences</h2>
+				<p class="sub-title">Tests & Licences</h2>
 					<p class="jp">資格</p>
-					<hr width="100%" color="#05a888" align="left" size="3px" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+					<hr width="100%" color="#555" align="left" size="3px">
 					<p>日本漢字能力検定2級</p>
 					<p>実用英語技能検定3級<p>
 					<p>第3級アマチュア無線技士<p>
 		<p><br><br></p>
-				<h2>Accounts</h2>
+				<p class="sub-title">Accounts</h2>
 					<p class="jp">アカウント</p>
-					<hr width="100%" color="#05a888" align="left" size="3px" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+					<hr width="100%" color="#555" align="left" size="3px">
 					<p>Twitter : <a href="https://twitter.com/itoppy18">itoppy18</a></p>
 					<p>GitHub : <a href="https://github.com/itoppy18">itoppy18</a></p>
 					<p>Qiita : <a href="https://qiita.com/itoppy18">itoppy18</a></p>
@@ -77,17 +93,17 @@
 					<p>Discord : itoppy18#2860</p>
 					<p>E-Mail : itoppy18@gmail.com</p>
 			<p><br><br><p>
-				<h2>Favorite Things</h2>
+				<p class="sub-title">Favorite Things</h2>
 					<p class="jp">好きなもの</p>
-					<hr width="100%" color="#05a888" align="left" size="3px" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+					<hr width="100%" color="#555" align="left" size="3px">
 					<p>色：積丹ブルー</p>
 					<p>映画：「君の名は。」</p>
 					<p>食べ物：モッツァレラチーズが入ってるピザ</p>
 					<p>バンド：ナイトdeライト/RADWIMPS</p>
 		<p><br><br></p>
-				<h2>Other Things</h2>
+				<p class="sub-title">Other Things</h2>
 					<p class="jp">その他</p>
-					<hr width="100%" color="#05a888" align="left" size="3px" class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay="0.3s">
+					<hr width="100%" color="#555" align="left" size="3px">
 					<p>左利き</p>
 					<p>つむじが２つある</p>
 					<p>ラズパイのGUIをmacOS風にしている</p>
