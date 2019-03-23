@@ -82,8 +82,8 @@ p.sub-title {
 }
 
 #pc-menu li a {
-	text-decoration: none;
-	font-size: 100%; 
+	text-decoration: none; 
+	font-size: 20px;
 	color: #fff;
 	display: block;
 	text-align: center;
@@ -196,13 +196,13 @@ header {
 	box-shadow: 6px 0 25px rgba(0,0,0,.15);
 }
 
-@media screen and (min-width:860px) {
+@media screen and (min-width:1200px) {
 	#nav-open {
 		display: none;
 	}
 }
 
-@media screen and (max-width:860px) {
+@media screen and (max-width:1200px) {
 	#pc-menu {
 		display: none;
 	}
