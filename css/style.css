@@ -4,6 +4,7 @@
 
 p {
 	color:#466;
+	font-family: 'Fira Sans Extra Condensed', sans-serif;
 }
 
 p.title {
@@ -206,3 +207,9 @@ header {
 		display: none;
 	}
 }
+
+.blog-img img {
+	width: 30%;
+	height: 30%;
+}
+	
