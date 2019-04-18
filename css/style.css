@@ -4,14 +4,13 @@
 
 p {
 	color:#466;
-	font-family: 'Ubuntu', sans-serif;
 	font-size: 16px;
 	font-weight: 300;
 }
 
 p.title {
 	color: #066;
-	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-family: 'Ubunchu', sans-serif;
 	font-size: 36px;
 }
 
@@ -55,7 +54,7 @@ p.sub-title {
 	display: block;
 	text-align: center;
 	height: 100px;
-	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 #pc-menu {
@@ -90,7 +89,7 @@ p.sub-title {
 	display: block;
 	text-align: center;
 	height: 40px;
-	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 }
 
 #top {
@@ -100,7 +99,7 @@ p.sub-title {
 #top p{
 	color: #066;
 	font-size: 50px;
-	font-family: 'Fira Sans Extra Condensed', sans-serif;
+	font-family: 'Ubuntu', sans-serif;
 	text-decoration: none;
 }
 
