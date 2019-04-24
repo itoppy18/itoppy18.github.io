@@ -3,23 +3,31 @@
 }
 
 p {
-	color:#466;
-	font-weight: 300;
+	color:#233;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 5px 5px 15px;
 }
 
 p.title {
 	color: #066;
 	font-family: 'Ubunchu', sans-serif;
-	font-size: 36px;
+	font-size: 30px;
 }
 
 p.sub-title {
 	color: #088;
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
-	font-size: 28px;
+	font-size: 25px;
 	margin: 0;
 }
 
+p.jp {
+	color: #545454;
+	font-size: 16px;
+	font-weight: 300;
+	margin: 0;
+}
 #menu {
 	list-style: none;
 	position: fixed;
@@ -104,7 +112,7 @@ p.sub-title {
 
 a {
 	text-decoration: none;
-	color: #246;
+	color: #008;
 }
 
 body {
@@ -207,3 +215,7 @@ header {
 		display: none;
 	}
 }	
+
+span {
+	display: inline-block;
+}
