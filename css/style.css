@@ -3,7 +3,7 @@
 }
 
 p {
-	color:#233;
+	color:#333;
 	font-size: 16px;
 	font-weight: 400;
 	padding: 5px 5px 5px;
@@ -19,14 +19,14 @@ p.sub-title {
 	color: #088;
 	font-family: 'Fira Sans Extra Condensed', sans-serif;
 	font-size: 25px;
-	margin: 0;
+	padding: 0;
 }
 
 p.jp {
-	color: #545454;
+	color: #333;
 	font-size: 16px;
 	font-weight: 300;
-	margin: 0;
+	padding: 0;
 }
 #menu {
 	list-style: none;
