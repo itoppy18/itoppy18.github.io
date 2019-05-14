@@ -1,96 +1,90 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!--ビルの外へ出よう。-->
 		<meta charset="utf-8">
-		<meta name="keywords" content="いとっぴー, itoppy18, itoppy, ECoder's">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Ubuntu" rel="stylesheet">
+		<title>Profile itoppy's website</title>
+		<link href="css/prettify.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="js/prettify.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" href="css/animate.css">
-		<script src="js/wow.js"></script>
-		<script>
-			new WOW().init()
-		</script>
-		<link rel="icon" type="image/png" href="img/itoppy.png">
-		<title>Code itoppy's website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<header>
-  		<div id="nav-drawer">
-			<input id="nav-input" type="checkbox" class="nav-unshown">
-			<label id="nav-open" for="nav-input"><span></span></label>
-			<label class="nav-unshown" id="nav-close" for="nav-input"></label>
-			<div id="nav-content">
-				<ul id="menu">
-					<li><a href="index.html">PROFILE</a></li>
-					<li><a href="code.html">CODE</a></li>
-					<li><a href="music.html">MUSIC</a></li>
-					<li><a href="blog.html">BLOG</a></li>
-					<li><a href="links.html">LINKS</a></li>
-				</ul>
+	<body  onload="prettyPrint()">
+		<div  class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper cyan lighten-2">
+					<a href="#" class="brand-logo right">itoppy's website</a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+					<ul id="nav-mobile" class="left hide-on-med-and-down">
+						<li class="waves-effect waves-light"><a href="index.html">Top</a></li>
+						<li class="waves-effect waves-light"><a href="profile.html">Profile</a></li>
+						<li class="waves-effect waves-light"><a href="code.html">Code</a></li>
+						<li class="waves-effect waves-light"><a href="music.html">Music</a></li>
+						<li class="waves-effect waves-light"><a href="blog.html">Blog</a></li>
+						<li class="waves-effect waves-light"><a href="links.html">Links</a></li> 
+					</ul>
+					<ul class="side-nav" id="mobile-demo">
+						<li><a href="profile.html">Profile</a></li>
+						<li><a href="code.html">Code</a></li>
+						<li><a href="music.html">Music</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="links.html">Links</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="main">
+			<div class="card hoverable">
+				<div class="card-title">
+					<p class="title"><i class="material-icons icon-cyan small">face</i>Profile</p>
+				</div>
+				<div class="card-content">
+					<p><img src="img/itoppy.png" weight="50px" height="50px"><br><a href="https://twitter.com/itoppy18"><img src="img/twitter.png" weight="30px" height="30px"></a>  <a href="https://github.com/itoppy18"><img src="img/github.png" weight="30px" height="30px"></a><br>Mamoru Itoi</p>
+					<p>2005年生まれ、東京都在住。プロテスタントのクリスチャン。</p>
+					<p>会話を通して成長する人工知能「<a href="https://pirka-ai.github.io">pirka</a>」の開発者です。</p>
+					<p><a href="profile.html" class="btn">みる</a></p>
+				</div>
+			</div>
+			<div class="card hoverable">
+				<div class="card-title">
+					<p class="title"><i class="material-icons cyan lighten-5 small">build</i>Code</p>
+				</div>
+				<div class="card-content">
+					<p>会話を通して成長する人工知能「pirka」や自然言語処理、シミュレーターなどを公開しています。</p>
+					<p><a href="code.html" class="btn">みる</a></p>
+				</div>
+			</div>
+			<div class="card hoverable">
+				<div class="card-title">
+					<p class="title"><i class="material-icons cyan lighten-5 small">music_note</i>Music</p>
+				</div>
+				<div class="card-content">
+					<p>Sonic Piを使って作曲した曲を公開しています。異世界っぽい曲からテクノまで。</p>
+					<p><a href="music.html" class="btn">みる</a></p>
+				</div>
+			</div>
+			<div class="card hoverable">
+				<div class="card-title">
+					<p class="title"><i class="material-icons cyan lighten-5 small">event_note</i>Blog</p>
+				</div>
+				<div class="card-content">
+					<p>毎週日曜日とイベントに行ったときに更新される僕のブログです。</p>
+					<p><a href="blog.html" class="btn">みる</a></p>
+				</div>
+			</div>
+			<div class="card hoverable">
+				<div class="card-title">
+					<p class="title"><i class="material-icons cyan lighten-5 small">link</i>Links</p>
+				</div>
+				<div class="card-content">
+					<p>友人のサイトへのリンクです。</p>
+					<p><a href="links.html" class="btn">みる</a></p>
+				</div>
 			</div>
 		</div>
-	</header>
-	<body>
-		<ul id="pc-menu">
-			<li><a href="index.html">PROFILE</a></li>
-			<li><a href="code.html">CODE</a></li>
-			<li><a href="music.html">MUSIC</a></li>
-			<li><a href="blog.html">BLOG</a></li>
-			<li><a href="links.html">LINKS</a></li>
-		</ul>
-		<ul id="top">
-			<p>itoppy's website</p>
-		</ul>
-		<div class="main">
-			<p class="title"><img src="img/code.png" width="40px" height="40px">CODE</p>
-				<p>ここでは自分の書いたプログラムを公開しています。依頼も常時受け付けています。今まで頂いたお仕事一覧は<a href="history.html">こちら</a>。</p>
-			<p><br><br></p>
-				<p class="sub-title">pirka</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>会話を通して成長する人工知能です。ウェブサイトは<a href="https://pirka-ai.github.io">こちら</a>。名前はアイヌ語で「美しい」を意味します。</p>
-					<p><a href="https//github.com/pirka-ai/pirka-ai.git" download="https://github.com/pirka-ai/pirka-ai.git"><img src="img/DL.png" width="50" height="50"></a></p>
-			<p><br><br></p>
-			<p class="sub-title">nlp</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>形態素解析や係り受け解析、動詞・形容詞活用、助動詞活用を取得します。</p>
-					<p><a href="https//github.com/itoppy18/nlp.git" download="https://github.com/itoppy18/nlp.git"><img src="img/DL.png" width="50" height="50"></a></p>
-			<p><br><br></p>
-			<p class="sub-title">novel AI</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>小説を解析・学習させて、それっぽい文章を生成するというプログラムです。</p>
-					<p><a href="https//github.com/itoppy18/novelai.git" download="https://github.com/itoppy18/novelai.git"><img src="img/DL.png" width="50" height="50"></a></p>
-			<p><br><br></p>
-				<p class="sub-title">connpass for Python</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>ユーザ名を入力すると、その人が申し込んだイベント一覧が表示されるというプログラムです。</p>
-					<p><a href="https://github.com/itoppy18/connpassforpython.git" download="https://github.com/itoppy18/connpassforpython.git"><img src="img/DL.png" width="50", height="50"></a></p>
-			<p><br><br></p>
-				<p class="sub-title">Prime functions</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>素数関連の便利そうな関数を作ってみました。nが素数かどうか判定するprime(n)、nまでの素数リストを生成するprimes(n)、nまでの双子素数リストを生成するdprimes(n)で構成されています。</p>
-					<p><a href="https://github.com/itoppy18/primefunctions.git" download="https://github.com/itoppy18/connpassforpython.git"><img src="img/DL.png" width="50", height="50"></a></p>
-			<p><br><br><p>
-				<p class="sub-title">Where is itoppy?</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>僕がどこにいるのかを取得するという極めてどうでも良いプログラムです。<p>
-					<p><a href="code/wii.py" download="wee.py"><img src="img/DL.png" width="50", height="50"></a></p>
-			<p><br><br><p>
-				<p class="sub-title">SME(Simulator for Magicicadas Extermination)</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>自然界では生存に有利なことが知られている「素数ゼミ」という蝉がいます。が、生存に有利すぎて1度に50億匹発生したりするので、蝉が嫌いな僕が何とか電子界で絶滅させられないかと思い作りました。</p>
-					<p><a href="https://github.com/itoppy18/sme.git" download="https://github.com/itoppy18/sme.git"><img src="img/DL.png" width="50", height="50"></a></p>
-			<p><br><br></p>
-				<p class="sub-title">King's game</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>キャンプやイベントで盛り上がっていると皆やりたがる（特に女子（偏見））、あの「王様ゲーム」をScratchで製作しました。「追加」で新しい指令を追加できます。「開始」でreturnキーを押すと指令が10秒間表示されます。</p>
-					<p><a href="code/project.sb2" download="project.sb2"><img src="img/DL.png" width="50", height="50"></a></p>
-			<p><br><br></p>
-				<p class="sub-title">piRecord</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>Raspberry Pi用録音ソフトウェア。<a href="http://kinokorori.hatenablog.com/entry/2018/03/05/000000">こちら</a>を参考にさせて頂きました。</p>
-					<p><a href="code/piRecord/piRecord.zip" download="piRecord.zip"><img src="img/DL.png" width="50", height="50"></a></p>
-			<p><br><br></p>
-		</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/myScript.js"></script>
 	</body>
 </html>
