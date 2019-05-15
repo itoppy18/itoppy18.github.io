@@ -43,30 +43,41 @@
 					<p>Sonic Piを使って作曲した曲を公開しています。</p>
 				</div>
 			</div>
-			<div class="card hoverable">
-				<div class="card-title">
-					<p class="sub-title">Otherworldly March</a></p>
-				</div>
-				<div class="card-content">
-					<p>もうすぐ公開。制作途中にOSを再インストールしたのでデータが全部消えてしまったので、今直しています。</p>
-				</div>
-			</div>
-			<div class="card hoverable">
-				<div class="card-title">
-					<p class="sub-title">Halloween</p>
-				</div>
-				<div class="card-content">
-					<p>ハロウィンっぽい感じの曲です。</p>
-				</div>
-			</div>
-			<div class="card hoverable">
-				<div class="card-title">
-					<p class="sub-title">Party Pop Music</p>
-				</div>
-				<div class="card-content">
-					<p>演劇部に「ワルツからテクノに突然変化する曲をつくってくれ」と言われてつくったものです。</p>
-				</div>
-			</div>
+			<ul class="collapsible popout" data-collapsible="accordion">
+				<li class="active">
+					<div class="collapsible-header">
+						<p>Otherworldly March</p>
+					</div>
+					<div class="collapsible-body" style="display: block;">
+						<p>もうすぐ公開。制作途中にOSを再インストールしたので、今やり直しています。</p>
+					</div>
+				</li>
+			</ul>
+			<ul class="collapsible popout" data-collapsible="accordion">
+				<li class="active">
+					<div class="collapsible-header">
+						<p>Halloween</p>
+					</div>
+					<div class="collapsible-body" style="display: block;">
+						<p>ハロウィンっぽい曲です。</p>
+						<audio controls src="music/halloween.wav" type="audio/wav">Your browser doesn't support this file :(</audio>
+					</div>
+				</li>
+			</ul>
+			<ul class="collapsible popout" data-collapsible="accordion">
+				<li class="active">
+					<div class="collapsible-header">
+						<p>Party Pop Music</p>
+					</div>
+					<div class="collapsible-body" style="display: block;">
+						<p>演劇部に「ワルツからテクノに突然変化する曲をつくってくれ」と言われてつくりました。2018年秋の文化祭で使用されました。</p>
+						<audio controls src="music/partyPopMusic.wav" type="audio/wav">Your browser doesn't support this file :(</audio>
+					</div>
+				</li>
+			</ul>
 		</div>
+		<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/myScript.js"></script>
 	</body>
 <html>
