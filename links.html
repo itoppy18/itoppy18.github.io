@@ -1,98 +1,76 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<!--僕は世界をへこませたい。-->
 		<meta charset="utf-8">
-		<meta name="keywords" content="いとっぴー, itoppy18, itoppy, ECoder's">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link href="https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed|Ubuntu" rel="stylesheet">
+		<title>Profile itoppy's website</title>
+		<link href="css/prettify.css" type="text/css" rel="stylesheet">
+		<script type="text/javascript" src="js/prettify.js"></script>
+		<link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection">
+		<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 		<link rel="stylesheet" type="text/css" href="css/style.css">
-		<link rel="stylesheet" href="css/animate.css">
-		<script src="js/wow.js"></script>
-		<script>
-			new WOW().init()
-		</script>
-		<link rel="icon" type="image/png" href="img/itoppy.png">
-		<title>Links itoppy's website</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
-	<header>
-  		<div id="nav-drawer">
-			<input id="nav-input" type="checkbox" class="nav-unshown">
-			<label id="nav-open" for="nav-input"><span></span></label>
-			<label class="nav-unshown" id="nav-close" for="nav-input"></label>
-			<div id="nav-content">
-				<ul id="menu">
-					<li><a href="index.html">PROFILE</a></li>
-					<li><a href="code.html">CODE</a></li>
-					<li><a href="music.html">MUSIC</a></li>
-					<li><a href="blog.html">BLOG</a></li>
-					<li><a href="links.html">LINKS</a></li>
-				</ul>
+	<body  onload="prettyPrint()">
+		<div  class="navbar-fixed">
+			<nav>
+				<div class="nav-wrapper cyan lighten-2">
+					<a href="#" class="brand-logo right">itoppy's website</a>
+					<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+					<ul id="nav-mobile" class="left hide-on-med-and-down">
+						<li class="waves-effect waves-light"><a href="index.html">Top</a></li>
+						<li class="waves-effect waves-light"><a href="profile.html">Profile</a></li>
+						<li class="waves-effect waves-light"><a href="code.html">Code</a></li>
+						<li class="waves-effect waves-light"><a href="music.html">Music</a></li>
+						<li class="waves-effect waves-light"><a href="blog.html">Blog</a></li>
+						<li class="waves-effect waves-light"><a href="links.html">Links</a></li> 
+					</ul>
+					<ul class="side-nav" id="mobile-demo">
+						<li><a href="index.html">Top</a></li>
+						<li><a href="profile.html">Profile</a></li>
+						<li><a href="code.html">Code</a></li>
+						<li><a href="music.html">Music</a></li>
+						<li><a href="blog.html">Blog</a></li>
+						<li><a href="links.html">Links</a></li>
+					</ul>
+				</div>
+			</nav>
+		</div>
+		<div class="main">
+			<div class="card hoverable">
+				<div class="card-title">
+					<p class="title"><i class="material-icons cyan lighten-5 small">link</i>Links</p>
+				</div>
+				<div class="card-content">
+					<p>友人のサイトへのリンクです。</p>
+				</div>
+			</div>
+			<div class="card hoverable">
+				<div class="card-title">
+					<p class="sub-title"><a href="https://yuki384.github.io"><img src="img/yuki384.png" width="80px" height="80px"></img></a>Yuki's website</p>
+				</div>
+				<div class="card-content">
+					<p>2018年度未踏ジュニアスーパークリエータで、プログラミングサークルECoder's主宰の三橋優希(<a href="https://twitter.com/YukiMihashi">@YukiMihashi</a>)さんのウェブサイトです。プログラミングとデザイン、どちらもレベルが高くて憧れています。彼女が僕のアイコンの作者です。普段から色々とお世話になっています。</p>
+				</div>
+			</div>
+			<div class="card hoverable">
+				<div class="card-title">
+					<p class="sub-title"><a href="https://matsudokuroneko.github.io"><img src="img/Kuro.png" width="80px" height="80px"></img></a>Kuro.'s website</p>
+				</div>
+				<div class="card-content">
+					<p>Kuro.(<a href="https://twitter.com/decent_black">@decent_black</a>)さんのウェブサイト。僕が使っているGeditというエディタを教えてくれたのも彼です。</p>
+				</div>
+			</div>
+			<div class="card hoverable">
+				<div class="card-title">
+					<p class="sub-title"><a href="https://kaedeapk.github.io/"><img src="img/Kaede.jpg" width="80px" height="80px"></img></a>Kaede's website</p>
+				</div>
+				<div class="card-content">
+					<p><a href="https://twitter.com/kaede_io">カエデ</a>さんのウェブサイト。サイト内のシューティングゲームがおすすめです!</p>				
+				</div>
 			</div>
 		</div>
-	</header>
-	<body>
-		<ul id="pc-menu">
-			<li><a href="index.html">PROFILE</a></li>
-			<li><a href="code.html">CODE</a></li>
-			<li><a href="music.html">MUSIC</a></li>
-			<li><a href="blog.html">BLOG</a></li>
-			<li><a href="links.html">LINKS</a></li>
-		</ul>
-		<ul id="top">
-			<p>itoppy's website</p>
-		</ul>
-		<div class="main">
-			<p class="title"><img src="img/links.png" width="40px" height="40px">LINKS</h1>
-				<p>友人のサイトへのリンクです。</p>
-				<p><br><br></p>
-			<a name="yuki">
-				<p class="sub-title"><a href="https://yuki384.github.io"><img src="img/yuki384.png" width="80px" height="80px"></img></a>Yuki's website</p>
-					<p>https://yuki384.github.io</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>小中高生プログラミングサークルのECoder'sの主催者で、2018年度未踏ジュニアスーパークリエータの三橋優希(<a href="https://twitter.com/YukiMihashi">@YukiMihashi</a>)さんのサイトです。プログラミングとデザイン、どちらもレベルが高くて憧れています。彼女が僕のアイコンの作者です。普段から色々とお世話になっています。</p>
-			<p><br><br></p>
-			<a name="kuro">
-				<p class="sub-title"><a href="https://matsudokuroneko.github.io"><img src="img/Kuro.png" width="80px" height="80px"></a>Kuro.'s website</p>
-					<p>https://matsudokuroneko.github.io/</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>プロジェクトのβ版の共有を楽にするWebサービス、「Testers Park」を作っているKuro.(<a href="https://twitter.com/matsud_kuroneko">@matsud_kuroneko</a>)さんのウェブサイトです。僕のラズパイに色々ソフトをインストールしてくれました。僕が使っているGeditというエディタをインストールしてくれたのも彼です。</p>
-			</a>
-			<p><br><br></p>
-			<a name="anharu">
-				<p class="sub-title"><a href="https://anharu2394.github.io"><img src="img/anharu.png" width="80px" height="80px"></img></a>Anharu's website</p>
-					<p>https://anharu2394.github.io</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>エンジニアの情報収集用Webサービス、「たぐまる」の製作者のあんはる(<a href="https://twitter.com/_anharu2">@_anharu2</a>)さんのウェブサイトです。Vimクッキーを作った人です。</p>
-			</a>
-			<p><br><br></p>
-			<a name="kaede">
-				<p class="sub-title"><a href="https://kaedeapk.github.io/"><img src="img/Kaede.jpg" width="80px" height="80px"></img></a>Kaede's website</p>
-					<p>https://kaedeapk.github.io</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>カエデ(<a href="https://twitter.com/kaede_io">@kaede_io</a>)さんのウェブサイトです。サイト内のゲームがおすすめです!</p>
-			</a>
-			<p><br><br></p>
-			<a name="koutan1803">
-				<p class="sub-title"><a href="https://koutan1803.github.io"><img src="img/koutan1803.png" width="80px" height="80px"></a>koutan1803's website</p>
-					<p>https://koutan1803.github.io/</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>koutan1803さんのウェブサイトです。趣味はプログラミングと料理とテレビ局巡り。</p>
-			</a>
-			<p><br><br></p>
-			<a name="ecorder-s">	
-				<a href="https://ecoder-s.github.io"><img src="img/ECoder's.png" width="80px" height="80px"></a>
-					<p>https://ecoder-s.github.io</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>優希さん主催の小中高生プログラミングサークル、ECoder'sの公式サイトです。月に一度ほど、練馬区の江古田で開催しています。僕も毎回行っています。開催情報は<a href="https://ekoda-scratch.connpass.com">こちら</a>からどうぞ。</p>
-			</a>
-			<p><br><br></p>
-			<a name="student-lt">
-				<p class="sub-title"><a href="https://student-lt.tech"><img src="img/学生LT.png" eidth="80px" height="80px"></a>Student LT</p>
-					<p>https://student-lt.tech</p>
-					<hr width="100%" color="#555" align="left" size="3px">
-					<p>日本最大級の学生エンジニアコミュニティ、学生LTの公式サイトです。もちろん、学生じゃなくても参加できます。開催情報は<a href="https://student-lt.connpass.com">こちら</a>です。</p>
-		<p><br><br></p>
-		</div>
+	<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+	<script type="text/javascript" src="js/materialize.min.js"></script>
+	<script type="text/javascript" src="js/myScript.js"></script>
 	</body>
 </html>			
