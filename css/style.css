@@ -4,19 +4,19 @@
 }
 
 p {
-	color:#333;
+	color:#323232;
 	font-size: 16px;
 	padding: 5px 5px 5px;
 }
 
 p.title {
-	color: #0097a7;
+	color: #088;
 	font-weight: 400px;
 	font-size: 30px;
 }
 
 p.sub-title {
-	color: #006064;
+	color: #323232;
 	font-weight: 400px;
 	font-size: 25px;
 }
@@ -36,5 +36,9 @@ a {
 }
 
 i.icon-cyan {
-	color: #006064;
+	color: #088;
+}
+
+div.icon-cyan {
+	color: #088;
 }
