@@ -1,40 +1,125 @@
-
-.jp {
-	margin: 0;
+body {
+  margin: 0;
+  padding: 0;
+  background: black;
 }
 
-p {
-	color:#323232;
-	font-size: 16px;
-	padding: 5px 5px 5px;
+nav {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 35px;
 }
 
-p.title {
-	color: #088;
-	font-weight: 400px;
-	font-size: 30px;
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: .2em 2em;
+  float: right;
 }
 
-p.sub-title {
-	color: #323232;
-	font-weight: 400px;
-	font-size: 25px;
+nav ul li {
+  display: inline-block;
+  margin: 0;
+  padding: .2em .7em;
 }
 
-a {
-	text-decoration: none;
-	color: #008;
+nav a {
+  width: 100%;
+  height: 100%;
+  color: #2792ca;
+  text-decoration: none;
+  font-family: Ubuntu;
+  font-size: 1.15em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  transition: .25s ease-in-out;
 }
 
-.main {
-	margin : 5% 5% 5% 5%;
-	width : 90%;
+nav a:hover {
+  color: rgb(220, 120, 0);
 }
 
-.nav-wrapper li a {
-	font-size: 20px;
+.nav-bg {
+  content: '';
+  position: absolute;
+  display: block;
+  top: -100%;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  background: rgb(50, 50, 50);
+  transition: .45s ease-in-out;
 }
 
-i.icon-cyan {
-	color: #088;
+.bg-hidden {
+  top: -100%;
+  opacity: 0;
+}
+
+.bg-visible {
+  top: 0;
+  opacity: 1;
+}
+
+h1 {
+
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background: rgb(50, 50, 50);
+  background: url(https://doninmass.files.wordpress.com/2013/04/walking-in-rain-painting-wallpaper-hd.jpg) no-repeat 50% 50% fixed;
+  background-size: 130%;
+  overflow: hidden;
+}
+
+.hero h1 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  padding: .3em;
+  font-size: 3em;
+  font-weight: lighter;
+	color: #2792ca;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  letter-spacing: 1px;
+}
+
+.flex_test-box {
+    background-color: #000;     /* 背景色指定 */
+    padding:  10px;             /* 余白指定 */
+		display: flex;
+    align-item: stretch;
+		flex-wrap: wrap;
+		align-content: stretch;
+    justify-content:center;
+}
+
+.flex_test-item {
+    padding: 10px;
+    margin:  10px;              /* 外側の余白 */
+    border-radius: 5px;        /* 角丸指定 */
+    width: 45%;
+    color: #2792ca;
+    font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+}
+
+.flex_test-item:nth-child(1) {
+    background-color:  #333; /* 背景色指定 */
+}
+
+.flex_test-item:nth-child(2) {
+    background-color:  #fff; /* 背景色指定 */
+}
+
+.h2 {
+  color: #2792ca;
+  font-family: 'TsukuARdGothic-Regular',sans-serif;
 }
